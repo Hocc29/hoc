@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <h2 align="center">Bảng Điểm Học Sinh</h2>
+            <table border="1" width="60%" align="center">
+            <tr>
+                <th rowspan="2">STT</th>
+                <th rowspan="2">Họ Tên</th>
+                <th colspan="3">Điểm</th>
+            </tr>
+            <tr>
+                <th>Toán</th>
+                <th>Văn</th>
+                <th>Ngoại Ngữ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Đào Khánh Trung</td>
+                <td>8.5</td>
+                <td>7.0</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Phan Ngọc Anh</td>
+                <td>9.0</td>
+                <td>8.5</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td colspan="2"><strong>Tổng cộng</strong></td>
+                <td><strong>17.5</strong></td>
+                <td><strong>15.5</strong></td>
+                <td><strong>17.5</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
